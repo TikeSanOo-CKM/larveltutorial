@@ -36,6 +36,6 @@ Route::get('/customer/edit/{customer}', [App\Http\Controllers\TestController::cl
 Route::patch('/customer/edit/{customer}', [App\Http\Controllers\TestController::class, 'edit_customer_form_submit'])->name('customer.update');
 Route::get('/customer/{customer}', [App\Http\Controllers\TestController::class, 'view_single_customer'])->name('customer.view');
 
-
+//ssa
 
 
